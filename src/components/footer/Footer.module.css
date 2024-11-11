@@ -1,0 +1,23 @@
+footer {
+  padding: 5% 10%;
+  background-color: rgb(80, 51, 150);
+  color: white;
+  display: flex;
+  flex-direction: reverse;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+footer div {
+  width: 150px;
+}
+footer div img {
+  width: 100%;
+  height: auto;
+}
+footer ul {
+  display: flex;
+  flex-direction: column;
+}
+footer ul li {
+  margin-bottom: 0.6em;
+}

@@ -1,0 +1,32 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3% 10%;
+
+    h1 {
+        width: 150px;        
+        a {
+            display: inline-block;
+            cursor: pointer;
+
+            img {
+                width: 100%;
+                height: auto;
+            }
+        }
+    }
+}
+header > ul {
+    display: flex;
+
+    li {
+        a {
+            display: inline-block;
+            cursor: pointer;
+        }
+    }
+    li:not(:last-child) {
+        margin-right: 2rem;
+    }   
+}

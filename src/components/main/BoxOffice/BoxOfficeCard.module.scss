@@ -1,0 +1,29 @@
+.boxOfficeCard {
+    width: 23%;
+    min-width: 200px;
+    margin-top: 2%;
+    transition: transform 0.3s ease;
+    transition-delay: 0.3s;
+
+    &:hover {
+        transform: scale(1.07);
+    }
+
+    a {
+        display: block;
+        cursor: pointer;
+
+        img {
+            width: 100%;
+        }
+
+
+    }
+
+    // 타이틀 스타일
+    h3 {
+        text-align: center;
+        margin-top: 10px;
+        font-size: 1.2rem;
+    }
+}

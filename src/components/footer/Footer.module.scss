@@ -1,0 +1,26 @@
+footer {
+    padding: 5% 10%;
+    background-color: rgba(80, 51, 150, 1);
+    color: white;
+
+    display: flex;
+    flex-direction: reverse;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    div {
+        width: 150px;
+        img{
+            width: 100%;
+            height: auto;
+        }
+    }
+
+    ul {
+        display: flex;
+        flex-direction: column;
+
+        li {
+            margin-bottom: 0.6em;
+        }
+    }
+}

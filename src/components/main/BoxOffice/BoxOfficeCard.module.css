@@ -1,0 +1,22 @@
+.boxOfficeCard {
+  width: 23%;
+  min-width: 200px;
+  margin-top: 2%;
+  transition: transform 0.3s ease;
+  transition-delay: 0.3s;
+}
+.boxOfficeCard:hover {
+  transform: scale(1.07);
+}
+.boxOfficeCard a {
+  display: block;
+  cursor: pointer;
+}
+.boxOfficeCard a img {
+  width: 100%;
+}
+.boxOfficeCard h3 {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 1.2rem;
+}

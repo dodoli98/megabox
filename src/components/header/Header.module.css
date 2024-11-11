@@ -1,0 +1,28 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3% 10%;
+}
+header h1 {
+  width: 150px;
+}
+header h1 a {
+  display: inline-block;
+  cursor: pointer;
+}
+header h1 a img {
+  width: 100%;
+  height: auto;
+}
+
+header > ul {
+  display: flex;
+}
+header > ul li a {
+  display: inline-block;
+  cursor: pointer;
+}
+header > ul li:not(:last-child) {
+  margin-right: 2rem;
+}
