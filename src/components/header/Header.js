@@ -1,4 +1,4 @@
-import styles from './Header.module.css'
+import './Header.module.css'
 export default function Header () {
 
     return (
@@ -6,7 +6,6 @@ export default function Header () {
             <h1>
                 <a href='/'>
                     <img src="/images/mainlogo.png" alt='main logo "megabox'></img>
-
                 </a>
             </h1>
 
