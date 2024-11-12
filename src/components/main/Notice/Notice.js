@@ -19,16 +19,16 @@ export default function Notice() {
     useEffect(() => {
         const interval = setInterval(() => {
             setCurrentIndex((prevIndex) => (prevIndex + 1) % notices.length);
-        }, 3000);
+        }, 3000); // 1초마다 실행
 
-        return () => clearInterval(interval);
+        return () => clearInterval(interval); // 컴포넌트 언마운트 시 정리
     }, [notices.length]);
 
     return (
         <div className={styles.notice_wrapper}>
             <ul
                 className={styles.notice_list}
-                style={{ top: `-${currentIndex * 1.5}rem` }}
+                style={{ top: `-${currentIndex * 1.5}rem`, transition: "top 0.5s ease" }}
             >
                 {notices.map((notice, index) => (
                     <li key={index}><a href={`notice${index + 1}`}>{notice}</a></li>
