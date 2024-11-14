@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/megabox/static/css/main.83501d68.css",
+    "main.js": "/megabox/static/js/main.775aee7c.js",
+    "static/js/453.766b121c.chunk.js": "/megabox/static/js/453.766b121c.chunk.js",
+    "static/media/event3.png": "/megabox/static/media/event3.14fcdbf5c7efb0797ca3.png",
+    "static/media/poster3.jpg": "/megabox/static/media/poster3.7ae8bbf152be899b10a1.jpg",
+    "static/media/poster1.jpg": "/megabox/static/media/poster1.9d098b8bc545ea97400b.jpg",
+    "static/media/poster4.jpg": "/megabox/static/media/poster4.233e05a04aa4286bfe9b.jpg",
+    "static/media/event1.png": "/megabox/static/media/event1.37cd94b1bd8054ed57df.png",
+    "static/media/poster2.jpg": "/megabox/static/media/poster2.b54cb7eb5985138377e0.jpg",
+    "static/media/event2.png": "/megabox/static/media/event2.afa17c7a658109a61894.png",
+    "static/media/whitelogo.png": "/megabox/static/media/whitelogo.ab3644f6f776c58fefa5.png",
+    "index.html": "/megabox/index.html",
+    "main.83501d68.css.map": "/megabox/static/css/main.83501d68.css.map",
+    "main.775aee7c.js.map": "/megabox/static/js/main.775aee7c.js.map",
+    "453.766b121c.chunk.js.map": "/megabox/static/js/453.766b121c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.83501d68.css",
+    "static/js/main.775aee7c.js"
+  ]
+}
