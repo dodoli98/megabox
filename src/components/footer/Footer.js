@@ -1,3 +1,4 @@
+import whiteLogo from '../../images/whitelogo.png'
 import './Footer.module.css'
 export default function Footer() {
 
@@ -22,7 +23,7 @@ export default function Footer() {
                 </li>
             </ul>
             <div>
-                <img src='/images/whitelogo.png' alt='whitelogo'></img>
+                <img src={whiteLogo} alt='whitelogo'></img>
             </div>
         </footer>
     )
